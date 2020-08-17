@@ -1,0 +1,39 @@
+
+.text-head-lg{
+    font-size: 32px;
+    font-family: "Open Sans";
+}
+.text-head-md{
+    font-size: 24px;
+    font-family: "Open Sans";
+}
+.text-head-sm{
+    font-size: 18px;
+    font-family: "Open Sans";
+}
+.text-body-lg{
+    font-size: 18px;
+    font-family: "Roboto";
+}
+.text-body-md{
+    font-size: 14px;
+    font-family: "Roboto";
+}
+.text-body-sm{
+    font-size: 10px;
+    font-family: "Roboto";
+}
+.text-bold{
+    font-weight: bold;
+}
+.text-italic{
+    font-style: italic;
+}
+.aline-center{
+    text-align: center;
+}
+
+*{
+    font-family:"Roboto";
+    font-size: 14px;
+}

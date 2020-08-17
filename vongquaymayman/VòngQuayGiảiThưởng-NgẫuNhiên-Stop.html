@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>HTML5 Canvas Winning Wheel</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <script type="text/javascript" src="Winwheel.min.js"></script>
+    <script src="TweenMax.min.js"></script>
+</head>
+
+<body>
+    <div align="center">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tr>
+                <td>
+                    <button id="spin_start" class="btn" onClick="startSpin();">Quay ngay</button>
+                    <button id="spin_stop" class="btn" onClick="stopSpin();">Dừng lại</button>
+                    <button id="spin_reset" class="btn" onClick="resetWheel();">Quay lại</button>
+                </td>
+                <td width="438" height="582" class="the_wheel" align="center" valign="center">
+                    <canvas id="canvas" width="434" height="434">
+                        <p style="{color: white}" align="center">
+                            Sorry, your browser doesn't support canvas. Please try another.
+                        </p>
+                    </canvas>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+
+<script src="./vongquay.js"></script>
+
+</html>
